@@ -1,0 +1,75 @@
+body {
+   background-color: rgb(8, 8, 8);
+  
+}
+form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#titre{
+    width: 200px;
+    height: 30px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#auteur {
+    width: 200px;
+    height: 30px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#prix {
+    width: 200px;
+    height: 30px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#date{
+    width: 220px;
+    height: 30px;
+    position: fixed;
+}
+#langue{
+    margin: auto;
+    display: block;
+    width: 230px;
+    height: 30px;
+}
+.type {
+    color: white;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 10px 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#table{
+    color: white;
+   margin-top: 50px;
+   height: 50px;
+ 
+}
+.ajouter,.modifier{background-color: rgb(236, 176, 132);
+   padding-left: 10px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 10px;
+  height: 40px;
+  width: 10%;
+  cursor: pointer;
+  margin-top: 44%;
+  margin-left: 45%;
+}
+#email_author { margin-top: 50px;
+    width: 220px;
+    height: 30px;
+
+}

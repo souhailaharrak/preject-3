@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+  
+</head>
+
+<body>
+
+    <form javascript:void(0) class="inputt" name="inputt">
+        <div class="input">
+            <input type="text" id="titre" placeholder="Titre de Livre"><br><br>
+            <input type="text" id="auteur" placeholder=" le nom de l'auteur"><br><br>
+
+            <input type="text" id="prix" placeholder=" le prix"><br><br>
+            <span id="spn"></span> <br><br>
+            <input type="date" id="date" placeholder="la date de publication " name="date">
+            <input type="email" id="email_author" placeholder="email " name="Email"><br> <br>
+            <span id="span"></span><br>
+        </div>
+        <div class="type">
+            <input type="radio" id="roman" name="fav_language" value="roman">
+            <label for="roman">Roman</label><br>
+            <input type="radio" id="essai" name="fav_language" value="essai">
+            <label for="essai">Essai</label><br>
+            <input type="radio" id="bande" name="fav_language" value="bande">
+            <label for="bande"> Bande-Dessinée</label>
+        </div>
+        <select id="langue">
+            <option value="Arabe">Arabe</option>
+            <option value="Français">Français</option>
+            <option value="Englais">Anglais</option>
+        </select>
+         
+     
+    </form>
+      <button class="ajouter" onclick="ajou()">Ajouter</button>
+    <button class="modifier" style="display:none;">Modifier</button>
+    <center>
+        <table border="1" cellpadding='5' id="table">
+    </center>
+
+    <thead>
+        <th>titre</th>
+        <th>nom</th>
+        <th>prix</th>
+        <th>date</th>
+        <th>langue</th>
+        <th>type</th>
+        <th>email</th>
+
+    </thead>
+    <tbody>
+
+    </tbody>
+    
+    </table>
+  <script src="Untitled-2.js"></script>
+</body>
+
+</html>
